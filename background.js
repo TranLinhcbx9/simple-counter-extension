@@ -36,3 +36,4 @@ function updateBadge(num) {
   chrome.action.setBadgeText({ text: num.toString() });
   chrome.action.setBadgeBackgroundColor({ color: "#2196F3" });
 }
+//test commit
