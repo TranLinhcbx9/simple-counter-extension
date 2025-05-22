@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Click Counter with Reset",
+    "version": "1.1",
+    "description": "Click the extension icon to increase count. Right-click to reset.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+    },
+    "permissions": ["storage", "contextMenus"]
+  }
+  
